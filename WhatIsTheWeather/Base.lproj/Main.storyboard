@@ -43,9 +43,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpc-kN-e1U">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpc-kN-e1U">
                                 <rect key="frame" x="117" y="137" width="87" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Get Weather"/>
                                 <connections>
                                     <action selector="getWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZGC-6A-E0e"/>
@@ -64,8 +63,11 @@
                             <constraint firstItem="TGq-Ll-THb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eoU-vh-lyg"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eqe-HR-i1b"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hs6-IO-9mF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jpc-kN-e1U" secondAttribute="trailing" constant="116" id="iEz-RB-uRt"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="idj-Ok-IbX"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nds-7i-egx"/>
+                            <constraint firstItem="jpc-kN-e1U" firstAttribute="top" secondItem="tXH-BH-W1C" secondAttribute="bottom" constant="8" id="o1g-2X-QhU"/>
+                            <constraint firstItem="jpc-kN-e1U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="pj8-CL-yTw"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qJr-28-eSl"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s4J-l0-AO3"/>
                             <constraint firstItem="mgU-gW-0ns" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wNR-QU-nhy"/>

@@ -8,17 +8,6 @@
 
 import UIKit
 
-extension UIViewController {
-    func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer =     UITapGestureRecognizer(target: self, action:    #selector(UIViewController.dismissKeyboard))
-        tap.cancelsTouchesInView = false
-        view.addGestureRecognizer(tap)
-    }
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
-    }
-}
-
 class ViewController: UIViewController {
     
     @IBOutlet var cityTextField: UITextField!
@@ -46,7 +35,7 @@ class ViewController: UIViewController {
                 var message = ""
                 
                 if error != nil {
-                    print(error)
+                    print(error!)
                 } else {
                     if let unwrappedData = data {
                         let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
