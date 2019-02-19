@@ -14,6 +14,7 @@
 		76A0BDF9221BEB8400D340A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A0BDF7221BEB8400D340A4 /* LaunchScreen.storyboard */; };
 		76A0BE04221BEB8400D340A4 /* WhatIsTheWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0BE03221BEB8400D340A4 /* WhatIsTheWeatherTests.swift */; };
 		76A0BE0F221BEB8400D340A4 /* WhatIsTheWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0BE0E221BEB8400D340A4 /* WhatIsTheWeatherUITests.swift */; };
+		76A0BE1D221BEC5100D340A4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76A0BE1C221BEC5100D340A4 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		76A0BE0A221BEB8400D340A4 /* WhatIsTheWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatIsTheWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A0BE0E221BEB8400D340A4 /* WhatIsTheWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsTheWeatherUITests.swift; sourceTree = "<group>"; };
 		76A0BE10221BEB8400D340A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A0BE1C221BEC5100D340A4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				76A0BDEE221BEB7C00D340A4 /* AppDelegate.swift */,
 				76A0BDF0221BEB7C00D340A4 /* ViewController.swift */,
 				76A0BDF2221BEB7C00D340A4 /* Main.storyboard */,
+				76A0BE1C221BEC5100D340A4 /* background.jpg */,
 				76A0BDF5221BEB8300D340A4 /* Assets.xcassets */,
 				76A0BDF7221BEB8400D340A4 /* LaunchScreen.storyboard */,
 				76A0BDFA221BEB8400D340A4 /* Info.plist */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A0BDF9221BEB8400D340A4 /* LaunchScreen.storyboard in Resources */,
+				76A0BE1D221BEC5100D340A4 /* background.jpg in Resources */,
 				76A0BDF6221BEB8300D340A4 /* Assets.xcassets in Resources */,
 				76A0BDF4221BEB7C00D340A4 /* Main.storyboard in Resources */,
 			);
